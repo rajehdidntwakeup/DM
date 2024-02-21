@@ -12,11 +12,15 @@
 	<groupId>dm.project</groupId>
 	<artifactId>DM</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>documentmanager</name>
 	<description>Document Manager</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+	
+	
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -59,4 +63,7 @@
 		</plugins>
 	</build>
 
+	<modules>
+		<module>json-reader</module>
+	</modules>
 </project>
