@@ -23,6 +23,7 @@
 		<module>json-reader</module>
 		<module>xml-reader</module>
 		<module>csv-reader</module>
+		<module>dm-core</module>
 	</modules>
 	
 	<dependencies>
